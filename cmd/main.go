@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	err := services.LoadStoreMaster("../config/StoreMasterAssignment.csv")
+	err := services.LoadStoreMaster("config/StoreMasterAssignment.csv")
 	if err != nil {
 		log.Fatalf("Error loading StoreMaster: %v\n", err)
 	}
