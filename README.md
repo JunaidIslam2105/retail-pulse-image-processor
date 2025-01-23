@@ -135,8 +135,6 @@ To test the **Retail Pulse Image Processor** API using Postman, follow the steps
         - Submit a job where `count` does not match the length of `visits` array:
             - **Method**: `POST`
             - **URL**: `http://localhost:8080/api/submit`
-            - **Headers**:
-                - `Content-Type`: `application/json`
             - **Body**: Use the following invalid payload:
               ```json
               {
